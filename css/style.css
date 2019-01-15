@@ -1,0 +1,178 @@
+ body {
+     max-width: 100%;
+     overflow-x: hidden;
+     font-family: "Montserrat",
+     "Helvetica Neue",
+     Helvetica,
+     Arial,
+     sans-serif;
+ }
+
+
+
+ #mynavbar {
+     background-color: rgba(1, 14, 24, 0.7);
+     margin-top: 30px;
+
+ }
+
+ .navbar-custom {
+     color: #fff;
+     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     text-transform: uppercase;
+     font-weight: 700;
+     border: none;
+ }
+
+ p {
+     text-align: center;
+ }
+
+ h1,
+ h2,
+ h3 {
+     font-weight: normal;
+     text-align: center;
+
+     margin: 0;
+     padding: 0;
+ }
+
+
+
+ .head {
+     background: url(../img/starwars.jpg) fixed;
+     color: #fff;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+
+ }
+
+ .Episode1 {
+     background: url(../img/episode1.jpg) fixed;
+     color: #fff;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+     font-size: 16px;
+
+ }
+ .Episode1 p {
+    background-color: rgba(1, 14, 24, 0.7)
+ }
+ .Episode2 {
+     background: url(../img/episode2.jpg) fixed;
+     color: violet;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+
+ }
+  .Episode2 p {
+      background-color: rgba(1, 14, 24, 0.7)
+  }
+ .Episode3 {
+     background: url(../img/episode3.jpg) fixed;
+     color:orange;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+
+ }
+  .Episode3 p {
+      background-color: rgba(1, 14, 24, 0.7)
+  }
+ .Episode4 {
+     background: url(../img/episode4.jpg) fixed;
+     color: #fff;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+
+ }
+  .Episode4 p {
+      background-color: rgba(1, 14, 24, 0.7)
+  }
+ .Episode5 {
+     background: url(../img/episode5.jpg) fixed;
+     color: #fff;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+
+ }
+
+ .Episode6 {
+     background: url(../img/episode6.jpg) fixed;
+     color: #fff;
+     height: 700px;
+     margin: 0;
+     padding: 200px 0 260px 0;
+     background-size: cover;
+
+ }
+  .Episode6 p {
+      background-color: rgba(1, 14, 24, 0.7)
+  }
+ 
+
+
+ #header1 {
+     font-size: 100px;
+ }
+
+ #header2 {
+     font-size: 20px;
+ }
+
+ 
+
+/* typewriter EFFECT*/
+
+ .typewriter h1 {
+     overflow: hidden;
+     /* Ensures the content is not revealed until the animation */
+     border-right: .15em solid rgb(0, 0, 0);
+     /* The typwriter cursor */
+     white-space: nowrap;
+     /* Keeps the content on a single line */
+     margin: 0 auto;
+     /* Gives that scrolling effect as the typing happens */
+     letter-spacing: .15em;
+     /* Adjust as needed */
+     animation:
+         typing 3.5s steps(40, end),
+         blink-caret .75s step-end infinite;
+         animation-play-state: running;
+ }
+
+ /* The typing effect */
+ @keyframes typing {
+     from {
+         width: 0
+     }
+
+     to {
+         width: 100%
+     }
+ }
+
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+
+     from,
+     to {
+         border-color: transparent
+     }
+
+     50% {
+         border-color: black;
+     }
+ }
